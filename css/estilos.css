@@ -1,0 +1,15 @@
+:root {
+    --AzulOscuro: #004590;
+    --Morado: #864993;
+    --Turquesa: #81C4C4;
+    --Cuaternario: #00C6BB;
+}
+
+@font-face {
+    font-family: 'Open_Sans_Medium';
+    src: url(../fonts/OpenSans-Medium.ttf) format('truetype');
+}
+
+body {
+    font-size: 'Open_Sans_Medium';
+}
