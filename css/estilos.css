@@ -69,6 +69,42 @@ body {
     text-align: center;
 }
 
+.email-image {
+    width: 132px;
+    height: 132px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 24px;
+}
+
+.email-image img {
+    width: 80px;
+}
+
+.resend {
+    font-size: 14px;
+}
+
+.resend span {
+    color: #004590;
+}
+
+.resend a {
+    color: #81C4C4;
+    text-decoration: none;
+}
+
+.form-container {
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    width: 300px;
+    justify-items: center;
+}
+
+
+
 @media (max-width: 640px){
     body .logo {
         display: block;
